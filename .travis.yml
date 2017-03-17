@@ -1,0 +1,14 @@
+# Deployment
+deploy:
+  api_key: $NPM_API_KEY
+  email: $NPM_EMAIL_ADDRESS
+  on:
+    branch: master
+    tags: true
+  provider: npm
+
+# Integration and Notifications
+notifications:
+  email:
+    on_failure: always
+    on_success: never

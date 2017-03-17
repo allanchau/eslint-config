@@ -1,0 +1,12 @@
+{
+  "name": "eslint-config-allanchau",
+  "version": "1.0.0",
+  "description": "Comprehensive ESLint config.",
+  "main": "index.js",
+  "repository": "https://github.com/allanchau/node-eslint-config-allanchau",
+  "author": "Allan Chau",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^3.17.1"
+  }
+}
