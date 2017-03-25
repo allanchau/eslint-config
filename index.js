@@ -133,7 +133,7 @@ module.exports = {
     'max-params': ['error', 4],
     'max-statements-per-line': 'error',
     'multiline-ternary': ['error', 'never'],
-    'new-cap': 'error',
+    'new-cap': ['error', { 'capIsNewExceptions': ['Router'] }],
     'new-parens': 'error',
     'newline-after-var': 'error',
     'newline-before-return': 'error',
