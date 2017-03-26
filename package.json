@@ -17,8 +17,5 @@
     "url": "https://github.com/allanchau/node-eslint-config-allanchau/issues"
   },
   "author": "Allan Chau",
-  "license": "MIT",
-  "peerDependencies": {
-    "eslint": "^3.18.0"
-  }
+  "license": "MIT"
 }
