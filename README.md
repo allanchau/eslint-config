@@ -3,12 +3,17 @@
 [![Build Status](https://travis-ci.org/allanchau/node-eslint-config-allanchau.svg?branch=master)](https://travis-ci.org/allanchau/node-eslint-config-allanchau)
 [![npm](https://img.shields.io/npm/v/eslint-config-allanchau.svg)](https://www.npmjs.com/package/eslint-config-allanchau)
 
-ESLint Shareable Config.
+A comprehensive ESLint Shareable Config.
+
+### Why use this?
+
+When coding as part of a team, you should aim to produce clear and consistent code.
+
+These set of rules will not only help enforce this, but also improve efficiency when reviewing code.
 
 ## Features
 
 - ECMAScript 6.
-- Comprehensive list of rules.
 
 ## Installation
 
