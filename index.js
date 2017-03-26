@@ -126,7 +126,8 @@ module.exports = {
       'ignoreRegExpLiterals': true,
       'ignoreStrings': true,
       'ignoreTemplateLiterals': true,
-      'ignoreUrls': true
+      'ignoreUrls': true,
+      'tabWidth': 2
     }],
     'max-lines': 'error',
     'max-nested-callbacks': ['error', 3],
