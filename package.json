@@ -2,8 +2,20 @@
   "name": "eslint-config-allanchau",
   "version": "1.0.2",
   "description": "Comprehensive ESLint config.",
+  "keywords": [
+    "eslint",
+    "config",
+    "allanchau"
+  ],
+  "author": "Allan Chau <allan.chau@icloud.com> (http://allanchau.com)",
   "main": "index.js",
-  "repository": "https://github.com/allanchau/node-eslint-config-allanchau",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allanchau/node-eslint-config-allanchau"
+  },
+  "bugs": {
+    "url": "https://github.com/allanchau/node-eslint-config-allanchau/issues"
+  },
   "author": "Allan Chau",
   "license": "MIT",
   "peerDependencies": {
