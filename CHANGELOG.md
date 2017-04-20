@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.1.0 - 20 April 2017
+
+- Use es6 modules by default.
+
 ## v2.0.0 - 5 April 2017
 
 - Update `func-style` to use `expression` and `allowArrowFunctions`.

@@ -8,7 +8,7 @@ module.exports = {
   'extends': 'eslint:recommended',
   'parserOptions': {
     'ecmaVersion': 6,
-    'sourceType': 'script'
+    'sourceType': 'module'
   },
   'rules': {
     'no-await-in-loop': 'error',
