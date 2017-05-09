@@ -1,5 +1,16 @@
 # Changelog
 
+## v3.0.0 - 10 May 2017
+
+- Replace `eslint:recommended` with the actual rules.
+- Split the rules up to allow browser code.
+- Add ESLint as a peerDependency.
+- Remove support for switches.
+
+## v2.2.0 - 4 May 2017
+
+- Allow the `delete` keyword.
+
 ## v2.1.0 - 20 April 2017
 
 - Use es6 modules by default.
