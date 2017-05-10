@@ -6,7 +6,7 @@ module.exports = {
     'mongo': true,
     'node': true,
   },
-  'extends': 'allanchau/common',
+  'extends': 'allanchau/src/common',
   'parserOptions': {
     'ecmaVersion': 6,
     'sourceType': 'module',
