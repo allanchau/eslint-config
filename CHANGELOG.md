@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.0.1 - 10 May 2017
+
+- Fix path.
+
 ## v3.0.0 - 10 May 2017
 
 - Replace `eslint:recommended` with the actual rules.

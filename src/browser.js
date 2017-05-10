@@ -6,7 +6,7 @@ module.exports = {
     'commonjs': true,
     'jquery': true,
   },
-  'extends': 'allanchau/common',
+  'extends': 'allanchau/src/common',
   'parserOptions': {
     'ecmaVersion': 5,
     'sourceType': 'script',
