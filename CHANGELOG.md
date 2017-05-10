@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.0.2 - 10 May 2017
+
+- Fix typo.
+
 ## v3.0.1 - 10 May 2017
 
 - Fix path.
