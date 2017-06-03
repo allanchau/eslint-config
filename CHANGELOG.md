@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.0.3 - 3 June 2017
+
+- Remove `arrow-body-style` rule that was conflicting with the `max-len` rule.
+
 ## v3.0.2 - 10 May 2017
 
 - Fix typo.
