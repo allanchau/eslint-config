@@ -3,7 +3,7 @@
 ## v4.0.0 - 12 June 2017
 
 - Compatibility with ESLint v4.0.0.
-- Added block padding for multiline blocks only.
+- Fixed instructions to use browser (ES5) code.
 
 ## v3.0.3 - 3 June 2017
 
