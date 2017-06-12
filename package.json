@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-allanchau",
-  "version": "3.0.3",
+  "version": "4.0.0",
   "description": "Comprehensive ESLint config.",
   "keywords": [
     "eslint",
@@ -22,6 +22,6 @@
   "author": "Allan Chau",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": ">=3"
+    "eslint": ">=4"
   }
 }

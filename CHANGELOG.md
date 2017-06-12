@@ -1,5 +1,10 @@
 # Changelog
 
+## v4.0.0 - 12 June 2017
+
+- Compatibility with ESLint v4.0.0.
+- Added block padding for multiline blocks only.
+
 ## v3.0.3 - 3 June 2017
 
 - Remove `arrow-body-style` rule that was conflicting with the `max-len` rule.
