@@ -1,7 +1,9 @@
 # Changelog
 
-## v4.0.0 - 12 June 2017
+## Unreleased
 
+- Removed `no-magic-numbers` rule.
+- Increase `newline-per-chained-call` chain depth to 2.
 - Compatibility with ESLint v4.0.0.
 - Fixed instructions to use browser (ES5) code.
 
