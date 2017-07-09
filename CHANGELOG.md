@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## v4.0.0 - 9 July 2017
 
 - Removed `no-magic-numbers` rule.
 - Increase `newline-per-chained-call` chain depth to 2.
