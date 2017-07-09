@@ -21,18 +21,18 @@ These set of rules will not only help enforce this, but also improve efficiency 
 This package is available on [NPM](https://www.npmjs.com/package/eslint-config-allanchau):
 
   ```shell
-  $ npm install eslint-config-allanchau
+  $ npm install @allanchau/eslint-config
   ```
   ```javascript
   // @ .eslintrc
   // For node.js code (ES6).
   {
-    "extends": "eslint-config-allanchau"
+    "extends": "@allanchau/eslint-config"
   }
 
   // For browser code (ES5).
   {
-    "extends": "eslint-config-allanchau/src/browser"
+    "extends": "@allanchau/eslint-config/src/browser"
   }
   ```
 
