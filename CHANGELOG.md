@@ -1,5 +1,12 @@
 # Changelog
 
+## v4.0.0 - 9 July 2017
+
+- Removed `no-magic-numbers` rule.
+- Increase `newline-per-chained-call` chain depth to 2.
+- Compatibility with ESLint v4.0.0.
+- Fixed instructions to use browser (ES5) code.
+
 ## v3.0.3 - 3 June 2017
 
 - Remove `arrow-body-style` rule that was conflicting with the `max-len` rule.

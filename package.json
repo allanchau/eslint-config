@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-allanchau",
-  "version": "3.0.3",
+  "name": "@allanchau/eslint-config",
+  "version": "4.0.0",
   "description": "Comprehensive ESLint config.",
   "keywords": [
     "eslint",
@@ -10,7 +10,7 @@
   "files": [
     "src"
   ],
-  "author": "Allan Chau <allan.chau@icloud.com> (http://allanchau.com)",
+  "author": "Allan Chau",
   "main": "src/index.js",
   "repository": {
     "type": "git",
@@ -19,9 +19,11 @@
   "bugs": {
     "url": "https://github.com/allanchau/node-eslint-config-allanchau/issues"
   },
-  "author": "Allan Chau",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": ">=3"
+    "eslint": ">=4"
+  },
+  "dependencies": {
+    "eslint-plugin-eslint-comments": "^1.0.2"
   }
 }

@@ -32,7 +32,7 @@ This package is available on [NPM](https://www.npmjs.com/package/eslint-config-a
 
   // For browser code (ES5).
   {
-    "extends": "eslint-config-allanchau/browser"
+    "extends": "eslint-config-allanchau/src/browser"
   }
   ```
 

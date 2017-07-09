@@ -2,6 +2,9 @@
 
 module.exports = {
   'root': true,
+  'plugins': [
+    'eslint-comments',
+  ],
   'env': {
     'jasmine': true,
     'jest': true,
@@ -11,6 +14,7 @@ module.exports = {
     'shared-node-browser': true,
   },
   'rules': {
+    'for-direction': 'error',
     'no-await-in-loop': 'error',
     'no-compare-neg-zero': 'error',
     'no-cond-assign': 'error',
@@ -79,7 +83,7 @@ module.exports = {
     'no-labels': 'error',
     'no-lone-blocks': 'error',
     'no-loop-func': 'error',
-    'no-magic-numbers': 'error',
+    'no-magic-numbers': 'off',
     'no-multi-spaces': 'error',
     'no-multi-str': 'error',
     'no-new': 'error',
@@ -135,7 +139,9 @@ module.exports = {
     'no-mixed-requires': ['error', { allowCall: true }],
     'no-new-require': 'error',
 
+    'array-bracket-newline': 'error',
     'array-bracket-spacing': 'error',
+    'array-element-newline': ['error', { 'multiline': true }],
     'block-spacing': 'error',
     'brace-style': 'error',
     'camelcase': 'error',
@@ -160,7 +166,6 @@ module.exports = {
     'line-comment-position': 'error',
     'linebreak-style': 'error',
     'lines-around-comment': 'error',
-    'lines-around-directive': 'error',
     'max-depth': 'error',
     'max-len': ['error', {
       code: 100,
@@ -179,9 +184,7 @@ module.exports = {
     'multiline-ternary': ['error', 'never'],
     'new-cap': ['error', { capIsNewExceptions: ['Router'] }],
     'new-parens': 'error',
-    'newline-after-var': 'error',
-    'newline-before-return': 'error',
-    'newline-per-chained-call': ['error', { ignoreChainWithDepth: 1 }],
+    'newline-per-chained-call': ['error', { ignoreChainWithDepth: 2 }],
     'no-array-constructor': 'error',
     'no-bitwise': 'error',
     'no-continue': 'error',
@@ -222,11 +225,20 @@ module.exports = {
       classes: 'always',
       switches: 'never',
     }],
+    'padding-line-between-statements': [
+      'error',
+      { blankLine: 'always', prev: 'directive', next: '*' },
+      { blankLine: 'any', prev: 'directive', next: 'directive' },
+      { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*' },
+      { blankLine: 'any', prev: ['const', 'let', 'var'], next: ['const', 'let', 'var'] },
+      { blankLine: 'always', prev: '*', next: 'return' },
+    ],
     'quote-props': ['error', 'consistent-as-needed', { keywords: true }],
     'quotes': ['error', 'single'],
     'require-jsdoc': 'error',
     'semi': 'error',
     'semi-spacing': 'error',
+    'semi-style': 'error',
     'sort-keys': 'error',
     'sort-vars': 'error',
     'space-before-blocks': 'error',
@@ -239,8 +251,16 @@ module.exports = {
     'space-infix-ops': 'error',
     'space-unary-ops': 'error',
     'spaced-comment': 'error',
+    'switch-colon-spacing': 'error',
     'template-tag-spacing': 'off',
     'unicode-bom': 'error',
     'wrap-regex': 'error',
+
+    'eslint-comments/disable-enable-pair': 'error',
+    'eslint-comments/no-duplicate-disable': 'error',
+    'eslint-comments/no-unlimited-disable': 'error',
+    'eslint-comments/no-unused-disable': 'error',
+    'eslint-comments/no-unused-enable': 'error',
+    'eslint-comments/no-use': 'error',
   },
 };
