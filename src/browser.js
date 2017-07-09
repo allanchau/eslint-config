@@ -6,7 +6,7 @@ module.exports = {
     'commonjs': true,
     'jquery': true,
   },
-  'extends': 'allanchau/src/common',
+  'extends': '@allanchau/eslint-config/src/common',
   'parserOptions': {
     'ecmaVersion': 5,
     'sourceType': 'script',

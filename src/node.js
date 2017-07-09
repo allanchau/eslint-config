@@ -6,7 +6,7 @@ module.exports = {
     'mongo': true,
     'node': true,
   },
-  'extends': 'allanchau/src/common',
+  'extends': '@allanchau/eslint-config/src/common',
   'parserOptions': {
     'ecmaVersion': 6,
     'sourceType': 'module',
