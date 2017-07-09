@@ -1,5 +1,9 @@
 # Changelog
 
+## v4.0.2 - 10 July 2017
+
+- Fix path issues.
+
 ## v4.0.1 - 9 July 2017
 
 - Fix path issues.
