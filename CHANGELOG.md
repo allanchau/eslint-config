@@ -1,9 +1,10 @@
 # Changelog
 
-## Unreleased
+## v4.1.0 - 12 August 2017
 
 - Remove `eslint-comments/no-use`.
 - Remove `array-element-newline` as it doesn't do what I intended.
+- Add the `getter-return` rule.
 
 ## v4.0.2 - 10 July 2017
 
