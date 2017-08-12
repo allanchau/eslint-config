@@ -25,5 +25,8 @@
   },
   "dependencies": {
     "eslint-plugin-eslint-comments": "^1.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1"
   }
 }
