@@ -1,6 +1,6 @@
 # node-eslint-config-allanchau
 
-[![Build Status](https://travis-ci.org/allanchau/node-eslint-config-allanchau.svg?branch=master)](https://travis-ci.org/allanchau/node-eslint-config-allanchau)
+[![build status](https://gitlab.com/allanchau/node-eslint-config-allanchau/badges/master/build.svg)](https://gitlab.com/allanchau/node-eslint-config-allanchau/commits/master)
 [![npm](https://img.shields.io/npm/v/@allanchau/eslint-config.svg)](https://www.npmjs.com/package/@allanchau/eslint-config)
 
 A comprehensive ESLint Shareable Config.
