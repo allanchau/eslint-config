@@ -141,7 +141,7 @@ module.exports = {
 
     'array-bracket-newline': 'error',
     'array-bracket-spacing': 'error',
-    'array-element-newline': ['error', { 'multiline': true }],
+    'array-element-newline': 'off',
     'block-spacing': 'error',
     'brace-style': 'error',
     'camelcase': 'error',
@@ -261,6 +261,6 @@ module.exports = {
     'eslint-comments/no-unlimited-disable': 'error',
     'eslint-comments/no-unused-disable': 'error',
     'eslint-comments/no-unused-enable': 'error',
-    'eslint-comments/no-use': 'error',
+    'eslint-comments/no-use': 'off',
   },
 };
