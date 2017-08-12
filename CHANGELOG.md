@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Remove `eslint-comments/no-use`.
+- Remove `array-element-newline` as it doesn't do what I intended.
+
 ## v4.0.2 - 10 July 2017
 
 - Fix path issues.
