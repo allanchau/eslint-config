@@ -1,5 +1,9 @@
 # Changelog
 
+## v4.2.0 - 3 September 2017
+
+- Add new `function-paren-newline` rule.
+
 ## v4.1.0 - 12 August 2017
 
 - Remove `eslint-comments/no-use`.
