@@ -1,5 +1,11 @@
 # Changelog
 
+## v5.0.0 - 21 September 2017
+
+- Remove `consistent-return` since it is broken with promises.
+- Move back to Yarn.
+- Move back to GitHub.
+
 ## v4.2.0 - 3 September 2017
 
 - Add new `function-paren-newline` rule.
