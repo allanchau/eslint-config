@@ -168,6 +168,7 @@ module.exports = {
     'line-comment-position': 'error',
     'linebreak-style': 'error',
     'lines-around-comment': 'error',
+    'lines-between-class-members': 'error',
     'max-depth': 'error',
     'max-len': ['error', {
       code: 100,
@@ -183,6 +184,7 @@ module.exports = {
     'max-params': ['error', 4],
     'max-statements': 'off',
     'max-statements-per-line': 'error',
+    'multiline-comment-style': 'error',
     'multiline-ternary': ['error', 'never'],
     'new-cap': ['error', { capIsNewExceptions: ['Router'] }],
     'new-parens': 'error',
