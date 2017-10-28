@@ -1,5 +1,12 @@
 # Changelog
 
+## v5.1.0 - 21 September 2017
+
+- Add support for ESLint 4.10.0.
+- Add support for ESLint 4.9.0.
+- Added the default `multiline-comment-style` rules.
+- Added the default `lines-between-class-members` rules.
+
 ## v5.0.0 - 21 September 2017
 
 - Remove `consistent-return` since it is broken with promises.
