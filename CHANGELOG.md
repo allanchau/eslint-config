@@ -1,8 +1,9 @@
 # Changelog
 
-## Unreleased
+## v5.2.0 - 29 November 2017
 
 - Added support for ESLint 4.12.0
+- Add support for eslint-plugin-eslint-comments 2.0.1
 
 ## v5.1.0 - 21 September 2017
 
