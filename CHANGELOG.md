@@ -1,5 +1,9 @@
 # Changelog
 
+## v5.5.0 - 23 January 2018
+
+- Update ESLint to 4.15.0
+
 ## v5.4.0 - 23 January 2018
 
 - Update ESLint to 4.14.0
@@ -19,7 +23,7 @@
 
 ## v5.1.0 - 21 September 2017
 
-- Add support for ESLint 4.10.0.s
+- Add support for ESLint 4.10.0.
 - Add support for ESLint 4.9.0.
 - Added the default `multiline-comment-style` rules.
 - Added the default `lines-between-class-members` rules.
