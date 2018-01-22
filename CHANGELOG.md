@@ -1,5 +1,9 @@
 # Changelog
 
+## v5.4.0 - 23 January 2018
+
+- Update ESLint to 4.14.0
+
 ## v5.3.1 - 23 January 2018
 
 - Update ESLint to 4.13.1
