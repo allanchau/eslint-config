@@ -161,6 +161,7 @@ module.exports = {
     'id-blacklist': 'off',
     'id-length': 'off',
     'id-match': 'off',
+    'implicit-arrow-linebreak': 'error',
     'indent': ['error', 2],
     'jsx-quotes': 'error',
     'key-spacing': 'error',

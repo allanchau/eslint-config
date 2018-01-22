@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Added support for ESLint 4.12.0
+
 ## v5.1.0 - 21 September 2017
 
 - Add support for ESLint 4.10.0.
