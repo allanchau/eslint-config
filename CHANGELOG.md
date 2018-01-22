@@ -1,8 +1,12 @@
 # Changelog
 
+## v5.3.0 - 23 January 2018
+
+- Update ESLint to 4.13.0
+
 ## v5.2.0 - 29 November 2017
 
-- Added support for ESLint 4.12.0
+- Added support for ESLint 4.12.1
 - Add support for eslint-plugin-eslint-comments 2.0.1
 
 ## v5.1.0 - 21 September 2017
