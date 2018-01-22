@@ -1,5 +1,10 @@
 # Changelog
 
+## v5.6.0 - 23 January 2018
+
+- Update ESLint to 4.16.0
+- The `allowMultiplePropertiesPerLine` option in the `object-property-newline` rule has been renamed to `allowAllPropertiesOnSameLine` to more clearly convey what the option does. `allowMultiplePropertiesPerLine` still works, but has been deprecated.
+
 ## v5.5.0 - 23 January 2018
 
 - Update ESLint to 4.15.0
