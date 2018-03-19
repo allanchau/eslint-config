@@ -181,7 +181,7 @@ module.exports = {
       tabWidth: 2,
     }],
     'max-lines': 'error',
-    'max-nested-callbacks': ['error', 3],
+    'max-nested-callbacks': ['error', 5],
     'max-params': ['error', 4],
     'max-statements': 'off',
     'max-statements-per-line': 'error',
