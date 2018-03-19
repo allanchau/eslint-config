@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.0.0 - 19 March 2018
+
+- Update `ecmaVersion` to 8.
+
 ## 5.7.2 - 19 March 2018
 
 - Increase the max nested callbacks rule to fix some bugs within promises.
