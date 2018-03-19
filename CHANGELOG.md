@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.7.2 - 19 March 2018
+
+- Increase the max nested callbacks rule to fix some bugs within promises.
+
 ## v5.6.0 - 23 January 2018
 
 - Increase the `max-len` rule to be a safe GitHub editor length.
