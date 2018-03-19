@@ -2,13 +2,12 @@
 
 module.exports = {
   'env': {
-    'es6': true,
     'mongo': true,
     'node': true,
   },
   'extends': '@allanchau/eslint-config/src/common',
   'parserOptions': {
-    'ecmaVersion': 6,
+    'ecmaVersion': 8,
     'sourceType': 'module',
   },
   'rules': {
