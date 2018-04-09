@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.0.0 - 9 April 2018
+
+- Added `es6` environment to prevent Promise is undefined errors.
+
 ## 6.0.0 - 19 March 2018
 
 - Update `ecmaVersion` to 8.
