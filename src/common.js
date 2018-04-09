@@ -6,6 +6,7 @@ module.exports = {
     'eslint-comments',
   ],
   'env': {
+    'es6': true,
     'jasmine': true,
     'jest': true,
     'mocha': true,
