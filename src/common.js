@@ -138,7 +138,7 @@ module.exports = {
 
     'array-bracket-newline': 'error',
     'array-bracket-spacing': 'error',
-    'array-element-newline': 'consistent',
+    'array-element-newline': ['error', 'consistent'],
     'block-spacing': 'error',
     'brace-style': 'error',
     'camelcase': 'error',

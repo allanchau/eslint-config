@@ -1,5 +1,10 @@
 # Changelog
 
+## 7.0.1 - 29 June 2018
+
+- Update node parser version to 8.
+- Fix broken rule.
+
 ## 7.0.0 - 29 June 2018
 
 - Reverted back to using es6 and scripts for node.
