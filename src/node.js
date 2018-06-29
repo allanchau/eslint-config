@@ -2,14 +2,11 @@
 
 module.exports = {
   'env': {
+    'es6': true,
     'mongo': true,
     'node': true,
   },
   'extends': '@allanchau/eslint-config/src/common',
-  'parserOptions': {
-    'ecmaVersion': 8,
-    'sourceType': 'module',
-  },
   'rules': {
     'handle-callback-err': ['error', '^(e|err|error)$'],
     'no-buffer-constructor': 'error',
@@ -19,7 +16,7 @@ module.exports = {
     'no-restricted-modules': 'off',
     'no-sync': 'error',
 
-    'arrow-body-style': 'off',
+    'arrow-body-style': 'error',
     'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
     'arrow-spacing': 'error',
     'constructor-super': 'error',

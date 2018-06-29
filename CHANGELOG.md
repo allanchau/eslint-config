@@ -1,5 +1,12 @@
 # Changelog
 
+## 7.0.0 - 29 June 2018
+
+- Reverted back to using es6 and scripts for node.
+- `arrow-body-style` now use the eslint default.
+- Removed `jasmine`, `mocha`, `phantomjs`, `qunit` env variables.
+- `class-methods-use-this` is now an error.
+
 ## 6.0.0 - 9 April 2018
 
 - Added `es6` environment to prevent Promise is undefined errors.
