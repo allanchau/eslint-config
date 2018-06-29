@@ -6,6 +6,9 @@ module.exports = {
     'mongo': true,
     'node': true,
   },
+  "parserOptions": {
+    "ecmaVersion": 8,
+  },
   'extends': '@allanchau/eslint-config/src/common',
   'rules': {
     'handle-callback-err': ['error', '^(e|err|error)$'],
