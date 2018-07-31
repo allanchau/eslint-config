@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.0.2 - 31 July 2018
+
+- Remove `prefer-object-spread` that wasn't working properly.
+
 ## 7.0.1 - 29 June 2018
 
 - Update node parser version to 8.

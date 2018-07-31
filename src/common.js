@@ -234,7 +234,7 @@ module.exports = {
       { blankLine: 'any', prev: ['const', 'let', 'var'], next: ['const', 'let', 'var'] },
       { blankLine: 'always', prev: '*', next: 'return' },
     ],
-    'prefer-object-spread': 'error',
+    'prefer-object-spread': 'off',
     'quote-props': ['error', 'consistent-as-needed', { keywords: true }],
     'quotes': ['error', 'single'],
     'require-jsdoc': 'error',
