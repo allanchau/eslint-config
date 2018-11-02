@@ -1,6 +1,10 @@
 # Changelog
 
-## 8.0.0
+## 8.1.0 - 2 November 2018
+
+- Add prettier extensions.
+
+## 8.0.0 - 2 November 2018
 
 - Make `no-extra-parens` an error.
 - Added `no-async-promise-executor`.
