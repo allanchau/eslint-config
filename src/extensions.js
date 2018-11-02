@@ -1,6 +1,3 @@
 'use strict';
 
-module.exports = [
-  "prettier",
-  "prettier/react",
-];
+module.exports = ['plugin:prettier/recommended', 'prettier/react'];
