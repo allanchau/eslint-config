@@ -1,5 +1,19 @@
 # Changelog
 
+## 8.0.0
+
+- Make `no-extra-parens` an error.
+- Added `no-async-promise-executor`.
+- Added `require-atomic-updates`.
+- Make `consistent-return` error.
+- Added `max-classes-per-file`.
+- Added `require-unicode-regexp`.
+- Make `init-declarations` an error.
+- Changed `multiline-ternary` to `always-multiline`.
+- Changed `padded-blocks` to `always`.
+- Make `prefer-object-spread` error.
+- Removed the two different rules, there is now only the single set of rules for node and the browser (use webpack).
+
 ## 7.0.2 - 31 July 2018
 
 - Remove `prefer-object-spread` that wasn't working properly.

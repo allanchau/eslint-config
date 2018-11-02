@@ -13,8 +13,7 @@ These set of rules will not only help enforce this, but also improve efficiency 
 
 ## Features
 
-- ECMAScript 5.
-- ECMAScript 8.
+- ECMAScript 6+.
 
 ## Installation
 
@@ -25,17 +24,7 @@ This package is available on [NPM](https://www.npmjs.com/package/eslint-config-a
   ```
   ```javascript
   // @ .eslintrc
-  // For node.js code (ES8).
   {
     "extends": "@allanchau/eslint-config"
   }
-
-  // For browser code (ES5).
-  {
-    "extends": "@allanchau/eslint-config/src/browser"
-  }
   ```
-
-## Notes
-
-- These rules follow my [JavaScript style guide](https://github.com/allanchau/styleguide/tree/master/js).
