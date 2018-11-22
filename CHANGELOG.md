@@ -1,5 +1,9 @@
 # Changelog
 
+## 8.1.3 - 22 November 2018
+
+- Remove prettier.
+
 ## 8.1.2 - 22 November 2018
 
 - Remove prettier.
