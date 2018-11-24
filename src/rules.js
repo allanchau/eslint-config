@@ -188,7 +188,7 @@ module.exports = {
   'max-statements': 'off',
   'max-statements-per-line': 'error',
   'multiline-comment-style': 'error',
-  'multiline-ternary': ['error', 'always-multiline'],
+  'multiline-ternary': 'off',
   'new-cap': ['error', { capIsNewExceptions: ['Router'] }],
   'new-parens': 'error',
   'newline-per-chained-call': ['error', { ignoreChainWithDepth: 2 }],
