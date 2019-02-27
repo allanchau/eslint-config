@@ -1,6 +1,6 @@
 {
-  "name": "@allanchau/eslint-config",
-  "version": "8.1.4",
+  "name": "eslint-config-allanchau",
+  "version": "5.14.1",
   "description": "Comprehensive ESLint config.",
   "keywords": [
     "eslint",
