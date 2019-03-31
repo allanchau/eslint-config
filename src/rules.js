@@ -105,6 +105,7 @@ module.exports = {
   'no-void': 'error',
   'no-warning-comments': 'error',
   'no-with': 'error',
+  'prefer-named-capture-group': 'off',
   'prefer-promise-reject-errors': 'error',
   radix: 'error',
   'require-await': 'error',
