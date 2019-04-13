@@ -3,9 +3,15 @@ workflow "Publish to NPM" {
   resolves = ["Publish"]
 }
 
+action "master-branch-filter" {
+  args = "branch master"
+  uses = "actions/bin/filter@master"
+}
+
 action "Tagged commit" {
   args = "tag v*"
-  uses = "actions/bin/filter@3c98a2679187369a2116d4f311568596d3725740"
+  needs = "master-branch-filter"
+  uses = "actions/bin/filter@master"
 }
 
 action "Publish" {
