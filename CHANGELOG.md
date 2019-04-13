@@ -1,6 +1,10 @@
 # Changelog
 
-## 10.0.0 - 13 April 2019
+## 9.0.1 - 13 April 2019
+
+- Add some missing rules through the recommended rules for each plugin.
+
+## 9.0.0 - 13 April 2019
 
 - Start fresh from a fresh version 9.0.0.
 - Added support for react.
