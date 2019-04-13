@@ -14,17 +14,19 @@ These set of rules will not only help enforce this, but also improve efficiency 
 ## Features
 
 - ECMAScript 6+.
+- React
 
 ## Installation
 
 This package is available on [NPM](https://www.npmjs.com/package/eslint-config-allanchau):
 
-  ```shell
-  $ npm install @allanchau/eslint-config
-  ```
-  ```javascript
-  // @ .eslintrc
-  {
-    "extends": "@allanchau/eslint-config"
-  }
-  ```
+```shell
+$ npm install eslint-config-allanchau
+```
+
+```javascript
+// @ .eslintrc
+{
+  "extends": "eslint-config-allanchau"
+}
+```

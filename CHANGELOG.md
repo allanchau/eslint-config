@@ -1,9 +1,13 @@
 # Changelog
 
+## 10.0.0 - 13 April 2019
+
+- Start fresh from a fresh version 9.0.0.
+- Added support for react.
+
 ## 5.14.1 - 27 February 2019
 
 - Changed the package name back to eslint-config-allanchau.
-- The package now follows eslint.
 - Added compatibility with eslint 5.14.1.
 
 ## 8.1.4 - 24 November 2018
