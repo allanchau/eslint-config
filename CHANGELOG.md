@@ -1,5 +1,13 @@
 # Changelog
 
+## 9.1.0 - 19 June 2019
+
+- Updated `confusing-browser-globals` to v1.0.7.
+- Updated `babel-eslint` to v10.0.2.
+- Updated `eslint-plugin-import` to v2.17.3.
+- Updated `eslint-plugin-react` to v7.13.0.
+- Added `eslint-plugin-jsdoc`.
+
 ## 9.0.1 - 13 April 2019
 
 - Add some missing rules through the recommended rules for each plugin.
