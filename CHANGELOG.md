@@ -1,5 +1,9 @@
 # Changelog
 
+## 9.1.1 - 29 June 2019
+
+- Fixed `eslint-comments` plugin.
+
 ## 9.1.0 - 19 June 2019
 
 - Updated `confusing-browser-globals` to v1.0.7.
