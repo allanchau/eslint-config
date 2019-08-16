@@ -1,5 +1,7 @@
 'use strict';
 
+const restrictedGlobals = require('confusing-browser-globals');
+
 module.exports = {
   // Possible Errors
   'for-direction': 'error',
@@ -119,7 +121,7 @@ module.exports = {
   'init-declarations': 'error',
   'no-delete-var': 'error',
   'no-label-var': 'error',
-  'no-restricted-globals': 'off',
+  'no-restricted-globals': ['error'].concat(restrictedGlobals),
   'no-shadow': 'error',
   'no-shadow-restricted-names': 'error',
   'no-undef': 'error',
@@ -305,55 +307,7 @@ module.exports = {
   'symbol-description': 'error',
   'template-curly-spacing': 'error',
   'yield-star-spacing': 'error',
-  // https://github.com/benmosher/eslint-plugin-import/tree/master/docs/rules
-  'import/first': 'error',
-  'import/no-amd': 'error',
-  'import/no-webpack-loader-syntax': 'error',
-  // https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules
-  'jsx-a11y/anchor-is-valid': [
-    'error',
-    {
-      aspects: ['noHref', 'invalidHref'],
-    },
-  ],
-  // https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules
-  'react/forbid-foreign-prop-types': ['error', { allowInPropTypes: true }],
-  'react/jsx-pascal-case': [
-    'error',
-    {
-      allowAllCaps: true,
-      ignore: [],
-    },
-  ],
-  'react/no-typos': 'error',
-  'react/style-prop-object': 'error',
   // https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks
+  'react-hooks/exhaustive-deps': 'warn',
   'react-hooks/rules-of-hooks': 'error',
-  // https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules
-  "jsdoc/check-alignment": 'error',
-  "jsdoc/check-examples": 'error',
-  "jsdoc/check-indentation": 'error',
-  "jsdoc/check-param-names": 'error',
-  "jsdoc/check-syntax": 'error',
-  "jsdoc/check-tag-names": 'error',
-  "jsdoc/check-types": 'error',
-  "jsdoc/implements-on-classes": 'error',
-  "jsdoc/match-description": 'error',
-  "jsdoc/newline-after-description": 'error',
-  "jsdoc/no-types": 'error',
-  "jsdoc/no-undefined-types": 'error',
-  "jsdoc/require-description": 'error',
-  "jsdoc/require-description-complete-sentence": 'error',
-  "jsdoc/require-example": 'error',
-  "jsdoc/require-hyphen-before-param-description": 'error',
-  "jsdoc/require-jsdoc": 'error',
-  "jsdoc/require-param": 'error',
-  "jsdoc/require-param-description": 'error',
-  "jsdoc/require-param-name": 'error',
-  "jsdoc/require-param-type": 'error',
-  "jsdoc/require-returns": 'error',
-  "jsdoc/require-returns-check": 'error',
-  "jsdoc/require-returns-description": 'error',
-  "jsdoc/require-returns-type": 'error',
-  "jsdoc/valid-types": 'error',
 };

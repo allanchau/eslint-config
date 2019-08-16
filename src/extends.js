@@ -2,6 +2,9 @@
 
 module.exports = [
   'plugin:eslint-comments/recommended',
+  'plugin:import/errors',
+  'plugin:import/warnings',
+  'plugin:jsdoc/recommended',
   'plugin:jsx-a11y/recommended',
   'plugin:react/recommended',
 ];
