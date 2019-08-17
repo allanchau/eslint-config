@@ -9,5 +9,4 @@ module.exports = [
   'plugin:react/recommended',
   'plugin:prettier/recommended',
   'prettier/react',
-  'stylelint-prettier/recommended',
 ];

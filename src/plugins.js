@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = ['jsdoc', 'jsx-a11y', 'react-hooks'];
+module.exports = ['prettier', 'jsdoc', 'jsx-a11y', 'react-hooks'];

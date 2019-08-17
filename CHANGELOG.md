@@ -1,5 +1,9 @@
 # Changelog
 
+## 10.0.1 - 17 August 2019
+
+- Remove stylelint from eslint settings.
+
 ## 10.0.0 - 16 August 2019
 
 - Improved package versioning requirements.
