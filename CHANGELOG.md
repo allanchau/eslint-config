@@ -1,5 +1,9 @@
 # Changelog
 
+## 10.0.2 - 17 August 2019
+
+- Fix yarn.lock conflict.
+
 ## 10.0.1 - 17 August 2019
 
 - Remove stylelint from eslint settings.
