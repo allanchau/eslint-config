@@ -2,15 +2,7 @@
 
 ## 10.0.0 - 16 August 2019
 
-- Updated babel-eslint to v10.0.2.
-- Updated confusing-browser-globals to v1.0.8.
-- Updated eslint to v6.1.0.
-- Updated eslint-plugin-eslint-comments to v3.1.2.
-- Updated eslint-plugin-import to v2.18.2.
-- Updated eslint-plugin-jsdoc to v15.8.1.
-- Updated eslint-plugin-jsx-a11y to v6.2.3.
-- Updated eslint-plugin-react to v7.14.1.
-- Updated eslint-plugin-react-hooks to v1.7.0.
+- Improved package versioning requirements.
 - Cleaned up the rules.
 
 ## 9.1.1 - 29 June 2019

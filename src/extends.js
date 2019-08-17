@@ -7,4 +7,7 @@ module.exports = [
   'plugin:jsdoc/recommended',
   'plugin:jsx-a11y/recommended',
   'plugin:react/recommended',
+  'plugin:prettier/recommended',
+  'prettier/react',
+  'stylelint-prettier/recommended',
 ];
