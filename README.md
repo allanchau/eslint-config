@@ -1,6 +1,5 @@
 # node-eslint-config-allanchau
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/allanchau/node-eslint-config-allanchau.svg)](https://greenkeeper.io/)
 [![npm](https://img.shields.io/npm/v/@allanchau/eslint-config.svg)](https://www.npmjs.com/package/@allanchau/eslint-config)
 
 A comprehensive ESLint Shareable Config.

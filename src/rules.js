@@ -310,4 +310,14 @@ module.exports = {
   // https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks
   'react-hooks/exhaustive-deps': 'warn',
   'react-hooks/rules-of-hooks': 'error',
+  // https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules
+  'react/react-in-jsx-scope': 'off',
+  // https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules
+  'jsx-a11y/anchor-is-valid': [
+    'error',
+    {
+      aspects: ['invalidHref', 'preferButton'],
+      components: ['Link'],
+    },
+  ],
 };
