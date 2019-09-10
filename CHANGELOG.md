@@ -1,5 +1,9 @@
 # Changelog
 
+## 10.0.4 - 11 September 2019
+
+- Remove padded block rule that conflicts with prettier.
+
 ## 10.0.3 - 19 August 2019
 
 - Remove additional rules that conflict with prettier.
