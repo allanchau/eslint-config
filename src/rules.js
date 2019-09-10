@@ -235,7 +235,7 @@ module.exports = {
   'one-var': ['error', 'never'],
   'one-var-declaration-per-line': 'off',
   'operator-assignment': 'error',
-  'operator-linebreak': ['error', 'none'],
+  'operator-linebreak': 'off',
   'padded-blocks': 'off',
   'padding-line-between-statements': [
     'error',
@@ -277,7 +277,7 @@ module.exports = {
   'wrap-regex': 'error',
   // ECMAScript 6
   'arrow-body-style': 'error',
-  'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
+  'arrow-parens': ['error', 'as-needed'],
   'arrow-spacing': 'error',
   'constructor-super': 'error',
   'generator-star-spacing': 'error',
