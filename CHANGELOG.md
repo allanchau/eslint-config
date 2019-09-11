@@ -1,5 +1,9 @@
 # Changelog
 
+## 10.0.6 - 11 September 2019
+
+- Removed `max-lines-per-function` option for compatibility with prettier.
+
 ## 10.0.5 - 11 September 2019
 
 - Removed `requireForBlockBody` option from `arrow-parens` for compatibility with prettier.
