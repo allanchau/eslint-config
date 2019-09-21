@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Changed
+
+- Add back `prettier-eslint-cli`.
+
 ## 10.1.0 - 21 September 2019
 
 ### Changed
