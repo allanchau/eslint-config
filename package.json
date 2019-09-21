@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-allanchau",
-  "version": "10.0.6",
+  "version": "10.1.0",
   "description": "Comprehensive ESLint config.",
   "homepage": "https://github.com/allanchau/node-eslint-config-allanchau#readme",
   "bugs": {
