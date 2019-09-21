@@ -1,52 +1,43 @@
 {
   "name": "eslint-config-allanchau",
-  "version": "10.0.6",
+  "version": "10.1.0",
   "description": "Comprehensive ESLint config.",
-  "keywords": [
-    "eslint",
-    "config",
-    "allanchau"
-  ],
-  "files": [
-    "src"
-  ],
-  "author": "Allan Chau",
-  "main": "src/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/allanchau/node-eslint-config-allanchau"
-  },
+  "homepage": "https://github.com/allanchau/node-eslint-config-allanchau#readme",
   "bugs": {
-    "url": "https://github.com/allanchau/node-eslint-config-allanchau/issues"
+    "url": "https://github.com/allanchau/node-eslint-config-allanchau/issues",
+    "email": "allan.chau@icloud.com"
   },
   "license": "MIT",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+  "author": {
+    "name": "Allan Chau",
+    "email": "allan.chau@icloud.com",
+    "url": "https://www.allanchau.com"
   },
-  "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "prettier --trailing-comma es5 --single-quote --write",
-      "git add"
-    ],
-    "yarn.lock": [
-      "git rm --cached"
-    ]
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "./lib"
   },
-  "peerDependencies": {
-    "babel-eslint": "^10.0.0",
-    "confusing-browser-globals": "^1.0.0",
-    "eslint": "^6.0.0",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-eslint-comments": "^3.0.0",
-    "eslint-plugin-import": "^2.0.0",
-    "eslint-plugin-jsdoc": "^15.0.0",
-    "eslint-plugin-jsx-a11y": "^6.0.0",
-    "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-react": "^7.0.0",
-    "eslint-plugin-react-hooks": "^1.0.0",
-    "stylelint-config-prettier": "^5.0.0",
-    "stylelint-prettier": "^1.0.0"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allanchau/node-eslint-config-allanchau.git"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "confusing-browser-globals": "^1.0.9",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-eslint-comments": "^3.1.2",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsdoc": "^15.9.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.0.1",
+    "husky": "^3.0.5",
+    "lint-staged": "^9.2.5",
+    "prettier": "1.18.2",
+    "stylelint": "^11.0.0",
+    "stylelint-config-prettier": "^5.2.0",
+    "stylelint-prettier": "^1.1.1"
   }
 }
