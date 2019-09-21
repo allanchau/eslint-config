@@ -2,37 +2,24 @@
   "name": "eslint-config-allanchau",
   "version": "10.0.6",
   "description": "Comprehensive ESLint config.",
-  "keywords": [
-    "eslint",
-    "config",
-    "allanchau"
-  ],
-  "files": [
-    "src"
-  ],
-  "author": "Allan Chau",
-  "main": "src/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/allanchau/node-eslint-config-allanchau"
-  },
+  "homepage": "https://github.com/allanchau/node-eslint-config-allanchau#readme",
   "bugs": {
-    "url": "https://github.com/allanchau/node-eslint-config-allanchau/issues"
+    "url": "https://github.com/allanchau/node-eslint-config-allanchau/issues",
+    "email": "allan.chau@icloud.com"
   },
   "license": "MIT",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+  "author": {
+    "name": "Allan Chau",
+    "email": "allan.chau@icloud.com",
+    "url": "https://www.allanchau.com"
   },
-  "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "prettier --trailing-comma es5 --single-quote --write",
-      "git add"
-    ],
-    "yarn.lock": [
-      "git rm --cached"
-    ]
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allanchau/node-eslint-config-allanchau.git"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
