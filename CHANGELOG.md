@@ -7,9 +7,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+
+- Added `endOfLine: lf` to the prettierrc file.
+- Added `no-dupe-else-if` rule.
+- Added `no-import-assign` rule.
+- Added `no-misleading-character-class` rule.
+- Added `no-setter-return` rule.
+- Added `no-useless-backreference` rule.
+
 ### Changed
 
 - Add back `prettier-eslint-cli`.
+- Updated `babel-eslint` from v10.0.3 to v10.1.0.
+- Updated `eslint` from v6.4.0 to v6.8.0.
+- Updated `eslint-config-prettier` from v6.3.0 to v6.10.0.
+- Updated `eslint-plugin-import` from v2.18.2 to v2.20.1.
+- Updated `eslint-plugin-prettier` from v3.1.1 to v3.1.2.
+- Updated `eslint-plugin-react` from v7.14.3 to v7.18.3.
+- Updated `eslint-plugin-react-hooks` from v2.0.1 to v2.5.0.
+- Updated `husky` from v3.0.5 to v4.2.3.
+- Updated `lint-staged` from v9.2.5 to v10.0.8.
+- Updated `stylelint` from v11.0.0 to v13.2.0.
+- Updated `stylelint-config-prettier` from v5.2.0 to v8.0.1.
+- Updated `stylelint-prettier` from v1.1.1 to v1.1.2.
+
+### Removed
+
+- Removed the defaults from the prettierrc file.
+- Removed `eslint-plugin-jsdoc` and related rules.
+- Removed all stylistic rules. (Recommend prettier for all styling)
 
 ## 10.1.0 - 21 September 2019
 
