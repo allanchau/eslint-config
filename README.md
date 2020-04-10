@@ -1,31 +1,35 @@
-# node-eslint-config-allanchau
+# eslint-config
 
-[![npm](https://img.shields.io/npm/v/@allanchau/eslint-config.svg)](https://www.npmjs.com/package/@allanchau/eslint-config)
-
-A comprehensive ESLint Shareable Config.
-
-### Why use this?
-
-When coding as part of a team, you should aim to produce clear and consistent code.
-
-These set of rules will not only help enforce this, but also improve efficiency when reviewing code.
-
-## Features
-
-- ECMAScript 6+.
-- React
+An unopinionated ESLint config.
 
 ## Installation
 
-This package is available on [NPM](https://www.npmjs.com/package/eslint-config-allanchau):
+Install using Yarn.
 
-```shell
-$ npm install eslint-config-allanchau
+```bash
+yarn add --dev @allanchau/eslint-config
 ```
 
-```javascript
-// @ .eslintrc
+## Requirements
+
+- Node.js v10.
+
+## Usage
+
+Create an eslint file.
+
+```json
 {
-  "extends": "eslint-config-allanchau"
+  "extends": ["@allanchau/eslint-config"]
 }
 ```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
