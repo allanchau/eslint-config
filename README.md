@@ -1,5 +1,7 @@
 # eslint-config
 
+![Node.js Package](https://github.com/allanchau/eslint-config/workflows/Node.js%20Package/badge.svg)
+
 An unopinionated ESLint config.
 
 ## Installation
