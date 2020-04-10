@@ -7,9 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## v11.0.0 - 2020-04-10
+
 ### Changed
 
-- Add back `prettier-eslint-cli`.
+- This Repo now only includes most of the error rules from ESLint.
+
+### Removed
+
+- Almost everything.
 
 ## 10.1.0 - 21 September 2019
 

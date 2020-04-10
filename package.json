@@ -1,6 +1,6 @@
 {
   "name": "@allanchau/eslint-config",
-  "version": "9.0.0",
+  "version": "11.0.0",
   "description": "An unopinionated ESLint config.",
   "homepage": "https://github.com/allanchau/eslint-config#readme",
   "bugs": {
